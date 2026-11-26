@@ -1,5 +1,4 @@
 '''-----------------------SETUP STEPS------------------------------------------------------
-
 Install Psycopg2: 
     pip install psycopg2-binary
 
@@ -14,7 +13,10 @@ Configure database.ini:
        database  your database name (default: faostat, change to whatever you used)
        user      your Postgres username
        password  your Postgres password (remove if not needed)
-NOTE: user, password should be whatever you used from the setup in class
+       
+NOTE: user, password should be whatever you used from the setup in class. 
+Anytime you want to connect to the database make sure the PostgreSQL server is running
+on your device.
 ---------------------------------------------------------------------------------------------'''
 
 import psycopg2
